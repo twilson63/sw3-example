@@ -1,0 +1,19 @@
+{
+  "name": "app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "arkb deploy dist -g http://localhost:1984 --wallet ./wallet.json"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.1.0",
+    "svelte": "^3.52.0",
+    "tinro": "^0.6.12",
+    "vite": "^3.2.0"
+  },
+  "dependencies": {}
+}
